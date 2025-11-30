@@ -13,7 +13,7 @@
 - RRQ, WRQ에 서버가 응답이 없을 경우에 대한 처리를 해야 한다.
 - ‘File not found’ 와  ‘File arleady exists’ 오류를 처리해야 한다. 
 
-3. 클라이언트 실행
-   python3 mytftp 203.250.133.88 get tftp.conf
-   python3 mytftp 203.250.133.88 put text.txt
-   python3 mytftp genie.pcu.ac.kr -p 9988 put test.txt
+3. 클라이언트 실행 
+  python3 mytftp 203.250.133.88 get tftp.conf 
+  python3 mytftp 203.250.133.88 put text.txt
+  python3 mytftp genie.pcu.ac.kr –p 9988 put test.txt
