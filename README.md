@@ -15,8 +15,8 @@
 
 3. 클라이언트 실행
    
-   python3 mytftp 203.250.133.88 get tftp.conf
+   python3 mytftp.py 203.250.133.88 get tftp.conf
    
-   python3 mytftp 203.250.133.88 put text.txt
+   python3 mytftp 203.250.133.88 put 2389001.txt
 
    python3 mytftp genie.pcu.ac.kr –p 9988 put test.txt
